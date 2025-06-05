@@ -127,8 +127,8 @@ int main() {
         ground += (ground[0] == '/') ? '\\' : '/';
         cout << ground << endl;
 
+        cout << "jump timer: " << jump_timer << endl;
         cout << "score: " << score << endl;
-        cout << "last score: " << last_speedup_score << endl;
         cout << "fps: " << fps << endl;
 
         if (jump_timer > 0)
